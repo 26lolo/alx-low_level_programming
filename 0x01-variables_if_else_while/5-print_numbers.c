@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - prints single digits of base ten from zero
+ * main - prints single digits of base 10 from 0
  *
  * Return: 0
  */
@@ -10,13 +10,12 @@ int main(void)
 {
 	int i;
 
-	i = 0;
-
-	while (i < 10)
+	for (i = 0; i < 10; i++)
 	{
 		printf("%d", i);
-		i++;
 	}
-	printf('\n');
+
+	printf("\n");
+
 	return (0);
 }
