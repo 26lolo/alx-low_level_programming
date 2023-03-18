@@ -1,1 +1,3 @@
-Positive anything is better than negative nothing
+# Introduction to C
+1. Hello Wrld
+2. C-variables, if, else, while
