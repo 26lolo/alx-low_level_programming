@@ -1,4 +1,4 @@
-#include
+#include "main.h"
 
 /**
  * _atoi - converts string to an integer
@@ -34,6 +34,6 @@ int _atoi(char *s)
 		c++;
 		}
 		ni *= min;
-		return (ni)
+		return (ni);
 	}
 }
