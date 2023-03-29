@@ -2,8 +2,8 @@
 
 /**
  * *_strncpy - copies a string
- * @*dest: destination string
- * @*src: string to be copied
+ * @dest: destination string
+ * @src: string to be copied
  * @n: number of bytes to be copied
  *
  * Return: Pointer to the resulting string
