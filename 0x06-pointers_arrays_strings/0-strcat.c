@@ -2,8 +2,8 @@
 #include <stdio.h>
 /**
  * *_strcat - concatenates two strings
- * @*dest: destination string
- * @*src: string to be concatenated
+ * @dest: destination string
+ * @src: string to be concatenated
  *
  * Return: Pointer to the resulting string
  */
@@ -11,6 +11,7 @@
 char *_strcat(char *dest, char *src)
 {
 	int dlen = 0, i;
+
 	while (dest[dlen])
 	{
 		dlen++

@@ -2,8 +2,8 @@
 
 /**
  * _strcmp - compares two strings
- * @*s1: string to be compared
- * @*s2: string to be compared
+ * @s1: string to be compared
+ * @s2: string to be compared
  *
  * Return: if str1 < str2, negative difference of the first unmatched character
  * if str1 == str2, 0
