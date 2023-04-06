@@ -20,6 +20,7 @@ int actual_prime(int n, int i)
 /**
  * is_prime_number - returns prime number of integer
  * @n: number to be determined
+ * @i: iterate
  *
  * Return: 1 if n is prime, 0 otherwise.
  */
