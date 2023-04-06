@@ -19,13 +19,15 @@ int actual_prime(int n, int i)
 
 /**
  * is_prime_number - returns prime number of integer
- * @n: number to be determind
+ * @n: number to be determined
  *
  * Return: 1 if n is prime, 0 otherwise.
  */
 
 int is_prime_number(int n)
 {
+	int i;
+	
 	if (*(actual_prime(n, i - 1)) <= 1)
 		return (0);
 	return (1);
