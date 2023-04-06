@@ -9,7 +9,7 @@
  * Return: natural squareroot
  */
 
-int _sqrt(intn, int i)
+int _sqrt(int n, int i)
 {
 	int sqrt = i * i
 		if (sqrt > n)
