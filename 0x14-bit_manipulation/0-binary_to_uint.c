@@ -39,7 +39,7 @@ int power(int base, int exp)
 /**
  * binary_to_uint - converts a binary number to an unsigned int
  * @b: binary
- * Return: unsigned int
+ * Return: unsigned int or 0 if b is NULL or char that is not 0 or 1
  */
 
 unsigned int binary_to_uint(const char *b)
